@@ -37,6 +37,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   
   "msg/Pidtuning.msg"
 
+  # add
+  "msg/VisionData.msg"
+  "srv/GlobalScanData.srv"
+
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
