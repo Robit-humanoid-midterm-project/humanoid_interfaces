@@ -33,4 +33,7 @@ float64[2] obstacle_1       # (y_dist_diff, x_dist_diff)
 float64[2] obstacle_2       # (y_dist_diff, x_dist_diff)
 float64[2] obstacle_3       # (y_dist_diff, x_dist_diff)
 
+# vision 하단 구간 장애물 픽셀 비율 (range: 0.00 ~ 1.00)
+float64[3] obstacle_ratio   # ex. (0.63, 0.72, 0.15) // 왼쪽 중간 오른쪽 순
+
 float64 confidence          # 장애물 confidence (0.01 ~ 1.00)
