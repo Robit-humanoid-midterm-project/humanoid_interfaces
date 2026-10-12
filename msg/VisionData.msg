@@ -37,3 +37,5 @@ float64[2] obstacle_3       # (y_dist_diff, x_dist_diff)
 float64[3] obstacle_ratio   # ex. (0.63, 0.72, 0.15) // 왼쪽 중간 오른쪽 순
 
 float64 confidence          # 장애물 confidence (0.01 ~ 1.00)
+
+float64 isRedBlue           # vision상 빨, 파 보이는지 // 0.0 또는 1.0
